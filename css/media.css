@@ -1,0 +1,371 @@
+@media(max-width: 1700px) {
+    .wrap__select {
+        width: max-content;
+
+    }
+}
+
+@media(max-width: 1400px) {
+    .main {
+        width: 90%;
+    }
+
+    .panel {
+        width: 26%;
+    }
+
+    .task__field {
+        width: 70%;
+        left: 27%;
+    }
+
+    .panel__exit__wrap {
+        left: 24%;
+    }
+
+    .task__settings {
+        min-width: 80px;
+    }
+
+    .task__title {
+        max-width: 60%;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .container {
+        width: 74%;
+    }
+
+    .panel {
+        padding: 30px 17px;
+    }
+
+    .main__item {
+        padding: 18px 15px;
+    }
+
+    .label__priority {
+        margin-left: 16px;
+        width: 60px;
+    }
+
+    .task__labels {
+        font-size: 17px;
+    }
+
+    .label__category {
+        padding: 10px 8px;
+    }
+
+    .task__title {
+        font-size: 21px;
+    }
+
+    .logo div {
+        font-size: 2.6vw;
+    }
+
+    .panel__list__item,
+    .panel__exit {
+        font-size: 1.9vw;
+    }
+
+    .panel__user {
+        padding: 4px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .main {
+        width: 95%;
+        padding: 20px 14px 20px 20px;
+    }
+
+    .add__task {
+        width: 66px;
+        height: 66px;
+        margin-bottom: 50px;
+    }
+
+    .panel__user {
+        margin-bottom: 72px;
+    }
+
+    .panel__exit__wrap {
+        left: 22%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .container {
+        width: 87%;
+    }
+
+    .panel {
+        width: 100px;
+        padding: 16px 8px;
+    }
+
+    .panel__user {
+        margin-top: 45px;
+        margin-bottom: 64px;
+        background: rgba(255, 255, 255, 0);
+        justify-content: center;
+        padding: 0;
+    }
+
+    .logo div {
+        display: none;
+    }
+
+    .logo img {
+        width: 70%;
+        margin-right: 0;
+    }
+
+    .panel__list__item p,
+    .panel__exit p {
+        display: none;
+    }
+
+    .user_name {
+        display: none;
+    }
+
+    .panel__list__item {
+        width: 130%;
+    }
+
+    .add__task {
+        color: rgb(236, 236, 236);
+        background: #4fa6b97a;
+        padding: 14px 10px;
+        width: 130%;
+        border-radius: 0 16px 16px 0;
+        height: 56px;
+        margin-left: -30px;
+        padding-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .add__task img {
+        scale: 130%;
+    }
+
+    .img__user {
+        margin-right: 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    .arrow {
+        right: 33%;
+        filter: invert(1);
+        top: 112%;
+        width: 30%;
+    }
+
+    .task__field {
+        width: 87%;
+        left: 12%;
+    }
+
+    .panel__exit {
+        padding: 0;
+    }
+
+    .panel__exit__wrap {
+        left: 35%;
+    }
+
+    .user-info-icons {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-top: 14px;
+    }
+
+    .user-info-icons img {
+        display: flex;
+        width: 100%;
+    }
+
+    .user-info_item {
+        border-radius: 60px;
+        padding: 12px;
+        margin: 10px 0;
+    }
+
+    .user-info {
+        display: none;
+    }
+
+    .panel__user-info {
+        margin-bottom: 24px;
+        margin-top: -42px;
+        width: 82%;
+    }
+
+    .add__task:hover {
+        background: rgba(255, 74, 19, 0);
+        transition: none;
+        transform: none;
+        scale: 1;
+    }
+}
+
+@media(max-width: 900px) {
+    .main__item {
+        padding: 0px 10px;
+    }
+
+    .task__title {
+        max-width: 65%;
+    }
+
+    .task__labels {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 76%;
+        justify-content: space-between;
+    }
+
+    .label__priority {
+        box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.829);
+        margin-left: 20px;
+        width: 24px;
+        height: 24px;
+        color: #ffffff00;
+        margin: 0;
+        padding: 0;
+        align-self: self-end;
+    }
+
+    .label__category {
+        border-radius: 6px;
+        padding: 4px 7px;
+        box-shadow: 1px 1px 1px rgba(54, 54, 54, 0.829);
+        text-align: center;
+    }
+
+    .task__title {
+        font-size: 19px;
+    }
+
+    .task__field__choose {
+        display: block;
+    }
+    .task__field__choose .wrap__select {
+        margin-top: 25px;
+    }
+    .task__field__choose select {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .input_text {
+        width: max-content;
+    }
+}
+
+@media(max-width: 750px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .main {
+        margin-top: 18%;
+    }
+
+    .panel {
+        width: 100vw;
+        max-width: 100vw;
+        height: fit-content;
+        display: flex;
+        padding: 18px 20px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .panel__user {
+        width: 15%;
+        margin: 0;
+        align-items: start;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .img__user {
+        margin-right: 0;
+        width: 72px;
+        height: 72px;
+    }
+
+    .panel__list {
+        display: flex;
+        position: absolute;
+        left: 38%;
+    }
+
+    .panel__exit__wrap {
+        position: absolute;
+        top: 36px;
+        right: 5%;
+        left: auto;
+    }
+
+    .task__field {
+        width: 96%;
+        left: 2%;
+        margin: 5px auto;
+    }
+
+    .panel__list a,
+    .add__task {
+        padding: 5px;
+        border-radius: 101px;
+        height: 60px;
+        margin-top: 0px;
+        padding-left: 15px;
+        min-width: 15%;
+        margin-right: 38px;
+        margin-bottom: 0;
+    }
+
+    #busk_tab img {
+        margin-left: 2px;
+    }
+
+    .panel__user-info {
+        margin: 0px;
+        width: 112px;
+        position: relative;
+    }
+
+    .user-info-icons {
+        position: absolute;
+        width: 100%;
+        margin-top: 80px;
+        flex-direction: row;
+        left: -105px;
+    }
+
+    .user-info_item {
+        padding: 10px;
+        margin: 3px 4px;
+    }
+}
+
+@media(max-width: 660px) {
+    .user-info-icons {
+        left: -101px;
+    }
+}

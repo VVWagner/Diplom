@@ -1,0 +1,212 @@
+#userid {
+    display: none;
+}
+
+.body {
+    background: rgb(227 227 227);
+    position: relative;
+}
+
+.panel {
+    width: 30%;
+    max-width: 320px;
+    background: #1E2738;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+    user-select: none;
+    padding-bottom: 2px;
+    position: fixed;
+}
+
+.panel__list a {
+    color: rgb(236, 236, 236);
+    padding: 14px 10px;
+    min-width: 100%;
+    border-radius: 0 16px 16px 0;
+    min-height: 56px;
+    margin-left: -30px;
+    padding-left: 40px;
+}
+
+.panel a:hover {
+    background: #3d4c66;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 28%;
+    height: 34%;
+    margin-right: 10px;
+}
+
+.logo div {
+    font-family: 'Notable';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: 5px 4px 4px #000000;
+    display: block;
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+}
+
+.panel__user {
+    width: 100%;
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    color: rgb(39, 39, 39);
+    margin-top: 58px;
+    margin-bottom: 80px;
+    align-items: center;
+    padding: 7px 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img__user {
+    width: 62px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 62px;
+    margin-right: 12px;
+    background-image: url('/img/icons/user.svg');
+    background-size: contain;
+}
+
+.img__user img {
+    width: 100%;
+}
+
+.panel__user p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 26px;
+}
+
+.arrow {
+    margin-top: 5px;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
+}
+
+.panel__list__item,
+.panel__exit {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.panel__exit {
+    margin-bottom: 0;
+    padding: 15px 22px;
+    border-radius: 10px;
+}
+
+.panel__list__item img {
+    margin-right: 25px;
+}
+
+.panel__exit__wrap {
+    justify-content: center;
+    position: absolute;
+    bottom: 70px;
+    left: 25%;
+}
+
+.panel__exit img {
+    margin-right: 15px;
+}
+
+.user_name {
+    text-transform: capitalize;
+}
+
+.panel__user-info {
+    width: 90%;
+    color: black;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 0;
+    margin: auto;
+    margin-top: -60px;
+    margin-bottom: 40px;
+    display: none;
+}
+
+.user-info_item {
+    background: white;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 6px 0;
+}
+
+.user-info_item {
+    color: black;
+}
+
+.add__task:hover {
+    background: rgb(255, 76, 19);
+    transition: all 0.5s;
+    transform: rotate(90deg);
+    scale: 1.05;
+}
+
+.add__task-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.task__field {
+    width: 65%;
+    background: #ffffff;
+    border-radius: 15px;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    margin: 45px auto;
+    padding: 32px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    position: absolute;
+    top: 144px;
+    left: 26%;
+    z-index: 1;
+}
+
+
+.add__task {
+    display: flex;
+    background: #439EB2;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.3s;
+    margin: auto;
+    margin-bottom: 54px;
+    cursor: pointer;
+}
+
+.add__task img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    scale: 120%;
+}

@@ -1,0 +1,48 @@
+.checkbox_task {
+    display: none;
+}
+
+.btn__setting,
+.settings__btns {
+    display: block;
+    cursor: pointer;
+}
+
+.img__setting,
+.btn__edit {
+    display: none;
+}
+
+.settings__btns .btn__delete img {
+    width: 120%;
+}
+
+.btn_delete_all {
+    cursor: pointer;
+    font-size: 19px;
+    background: #fe4207;
+    border-radius: 14px;
+    padding: 13px 12px;
+    color: white;
+    box-shadow: 2px 2px 4px #797979;
+}
+
+.btn_delete_all:hover {
+    background: #b63811;
+}
+
+.main__title__tasks-busket {
+    margin-top: 4px;
+}
+
+.task__settings {
+    width: 6%;
+}
+
+.task__title {
+    text-decoration-line: line-through;
+}
+
+.main {
+    font-size: 20px;
+}

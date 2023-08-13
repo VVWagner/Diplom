@@ -1,0 +1,114 @@
+body {
+    background: rgb(227 227 227);
+}
+
+nav {
+    display: flex;
+    background: #1E2738;
+    padding: 25px 30px;
+    justify-content: space-between;
+}
+
+.nav_left {
+    display: flex;
+}
+
+.nav_left a {
+    margin-left: 40px;
+}
+
+.logo {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo img {
+    width: 72px;
+    margin-right: 10px;
+}
+
+.logo_name {
+    color: white;
+    font-family: 'Notable';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: 5px 4px 4px #000000;
+    display: block;
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    margin-top: 3%;
+}
+
+.panel__exit {
+    display: flex;
+    align-items: center;
+    font-family: 'Bellota', cursive;
+    font-size: 22px;
+}
+
+.panel__exit img {
+    margin-right: 10px;
+}
+
+
+
+
+.users {
+    margin-top: 30px;
+    margin-left: 27%;
+    border-radius: 15px;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 10px 12px 12px rgb(158, 158, 158);
+    background: white;
+}
+
+.users__block {
+    width: 100%;
+}
+
+.user_info {
+    display: flex;
+    margin: 18px 0 0 0;
+    padding: 16px 8px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+.user_name {
+    font-size: 24px;
+    min-width: 190px;
+    text-transform: capitalize;
+}
+
+.user_btns {
+    display: flex;
+}
+
+.user_edit,
+.user_delete {
+    font-size: 17px;
+    margin-left: 15px;
+    border: 1px solid grey;
+    padding: 8px 11px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.user_edit:hover {
+    background: rgb(87, 132, 199);
+    color: white;
+}
+
+.user_delete:hover {
+    background: rgb(218, 114, 114);
+    color: white;
+}
+
+
+@media(max-width: 1500px) {
+    .users {
+        width: 50%;
+}
